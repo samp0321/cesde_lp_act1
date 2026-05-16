@@ -2,7 +2,7 @@ package com.example;
 
 public class EstructurasDeRepeticion {
     public static void ejemploWhile() {
-        // TODO
+        //
     }
 
     public static void ejemploDoWhile() {

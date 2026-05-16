@@ -10,30 +10,11 @@ public class Operadores {
     }
 
     public static void demostrarIncrementoDecremento() {
-        int n = 5;
-        System.out.println("Valor inicial n: " + n);
-        System.out.println("n++ (post-incremento): " + (n++));
-        System.out.println("Valor de n después de n++: " + n);
 
-        n = 5;
-        System.out.println("++n (pre-incremento): " + (++n));
-        System.out.println("Valor de n después de ++n: " + n);
-
-        int m = 5;
-        System.out.println("m-- (post-decremento): " + (m--));
-        System.out.println("Valor de m después de m--: " + m);
-
-        m = 5;
-        System.out.println("--m (pre-decremento): " + (--m));
-        System.out.println("Valor de m después de --m: " + m);
     }
 
     public static void demostrarRelacionales() {
-        int a = 10;
-        int b = 20;
-        System.out.println("a > b? " + (a > b));
-        System.out.println("a < b? " + (a < b));
-        System.out.println("a == b? " + (a == b));
+
     }
 
     public static void demostrarLogicos() {
