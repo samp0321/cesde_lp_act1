@@ -2,7 +2,6 @@ package com.example;
 
 public class ArreglosUnidimensionales {
     public static void declararCrearInicializar() {
-        // TODO
     }
 
     public static void mostrarLongitud() {
@@ -10,11 +9,29 @@ public class ArreglosUnidimensionales {
     }
 
     public static void recorrerConForClasico() {
-        // TODO
+        String[] peliculas = new String[5];
+        peliculas[0] = "El Padrino";
+        peliculas[1] = "El Señor de los Anillos";
+        peliculas[2] = "Forrest Gump";
+        peliculas[3] = "Inception";
+        peliculas[4] = "Matrix";
+
+        for (int i = 0; i < peliculas.length; i++) {
+            System.out.println(peliculas[i]);
+        }
     }
 
     public static void recorrerConForEach() {
-        // TODO
+        String[] peliculas = new String[5];
+        peliculas[0] = "El Padrino";
+        peliculas[1] = "El Señor de los Anillos";
+        peliculas[2] = "Forrest Gump";
+        peliculas[3] = "Inception";
+        peliculas[4] = "Matrix";
+
+        for (String pelicula : peliculas) {
+            System.out.println(pelicula);
+        }
     }
 
     public static int[] arrayComoParametroYRetorno(int[] array) {
